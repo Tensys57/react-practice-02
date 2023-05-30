@@ -1,6 +1,6 @@
 import { Feedback } from './Feedback/Feedback';
 
-// import Counter from './Counter/Counter';
+import Counter from './Counter/Counter';
 
 export const App = () => {
   return (
@@ -15,8 +15,8 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      <Feedback />
-      {/* {<Counter initialValue={35} />} */}
+      {/* <Feedback /> */}
+      {<Counter initialValue={35} />}
     </div>
   );
 };
